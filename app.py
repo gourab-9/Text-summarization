@@ -10,6 +10,7 @@ import networkx as nx
 import os
 
 # Download required NLTK resources
+nltk.download()
 nltk.download('punkt')
 nltk.download('stopwords')
 
